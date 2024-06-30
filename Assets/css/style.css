@@ -1,0 +1,285 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: sans-serif;
+}
+
+nav{
+    
+}
+
+nav .container{
+    opacity: 1;
+}
+
+
+    /* List START */
+    nav .container .list{
+        background-color: black;
+    }
+
+        /* IMG A START*/
+        nav .container .list li .a img{
+            /* opacity: 0.5; */
+            opacity: 1;
+        }   /* nav .container .list li .a img:hover{
+            opacity: 1;
+        }*/
+
+        /* IMG A END*/
+
+
+        /* IMG B START*/
+        nav .container .list li .b img{
+            /* opacity: 0.5; */
+            opacity: 1;
+        }   /* nav .container .list li .b img:hover{
+            opacity: 1;
+        }*/
+        
+        /* IMG B END*/
+
+
+        /* IMG C START*/
+        nav .container .list li .c img{
+            /* opacity: 0.5; */
+            opacity: 1;
+        }   /* nav .container .list li .c img:hover{
+            opacity: 1;
+        } */
+        
+        /* IMG C END*/
+
+
+    nav .container .list li{
+        display: flex;
+
+        padding: 10px;
+
+    }
+
+    nav .container .list li a{
+        width: 1000px;
+        text-align: center;
+    }
+
+    /* List END */
+
+nav .container ul{
+
+}
+
+nav .container ul li{
+    text-align: center;
+}
+
+nav .container ul li a{
+    display: inline-block;
+
+    color: rgb(49, 47, 47);
+    text-decoration: none;
+    line-height: -90px;
+
+    margin-left: 20px;
+    padding: 10px;
+}   nav .container ul li a:hover{
+
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 12px;
+    text-decoration-color: black;
+    }
+
+nav .container ul li a p{
+    
+}
+
+
+/* Hero START */
+.hero{
+
+}
+
+.hero .container{
+
+}
+
+        /* Hero-Text START */
+        .hero .container .hero-text{
+            position: absolute;
+            width: 100%;
+        } 
+        
+        .hero .container .hero-text h2{
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero .container .hero-text p{
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero .container .hero-text a{
+            color: rgb(0, 108, 175);
+            text-decoration: none;
+            
+            display: flex;
+            justify-content: center;
+        }   .hero .container .hero-text a:hover{
+            
+            text-decoration: underline;
+            text-decoration-color: rgb(0, 108, 175);
+            text-underline-offset: 5px;
+        }
+
+        /* Hero-Text END */
+
+.hero ,.container a{
+
+}
+
+
+
+.hero .container a img{
+    /* inline-size: 950px; */ /*Supaya bisa membagi 2 bagian kiri dan kanan atau satu baris*/
+
+    width: 100%;
+    height: 540px; /* Mempertahankan rasio aspek */
+    min-height: 320px;
+    object-fit: cover; /* Pastikan gambar tetap menutupi area yang tersedia dengan memotong bagian yang berlebih */
+}   
+/* Hero END */
+
+
+
+/* Content START */
+.content{
+    
+}
+
+.content .container{
+    background-color: #F5F7F8;
+}
+
+.content .container h2{
+    
+    font-size: 38px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.content .container .card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+
+}
+
+.content .container .card ul{
+    
+}
+
+.content .container .card ul a{
+    text-decoration: none;
+}
+
+.content .container .card ul a img{
+    padding: 11px;
+
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    inline-size: 450px;
+    transition: all 510ms ease-in;
+    
+    /* min-height: 120%; */
+    /* height: auto; Mempertahankan rasio aspek
+    min-height: 320px;
+    object-fit: cover; Pastikan gambar tetap menutupi area yang tersedia dengan memotong bagian yang berlebih */
+}   .content .container .card ul a img:hover{
+    /* padding: 5px; *z/ */
+    transition: all 10ms ease-in-out;
+    box-shadow: 4px 2px 40px 1px black; 
+
+    
+
+
+    z-index: 2;
+}
+/* Content END */
+
+
+
+/* Campings START */
+.campings{
+    text-align: center;
+    margin-top: -80px;
+
+
+    padding: 40px;
+
+}
+
+.campings .container{
+    padding: 10px;
+
+    
+}
+
+
+.campings .container h2{
+    padding: 20px;
+
+
+    font-size: 38px;
+    font-weight: 500;
+    
+}
+
+.campings .container a{
+    color: rgb(0, 108, 175);
+    text-decoration: none;
+
+}   .campings .container a:hover{
+    
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 108, 175);
+    text-underline-offset: 5px;
+}
+ 
+
+
+.campings .container .card{
+    width: 100%;
+
+
+}
+
+.campings .container .card ul{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+
+}
+
+.campings .container .card ul a img{
+    width: 100%;
+    height: auto; /* Mempertahankan rasio aspek */
+    min-height: 320px;
+    object-fit: cover; /* Pastikan gambar tetap menutupi area yang tersedia dengan memotong bagian yang berlebih */
+}
+/* Campings END */
