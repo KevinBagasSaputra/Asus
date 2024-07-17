@@ -196,9 +196,9 @@ nav .container ul li a p{
 }
 
 .content .container .card ul a img{
-    padding: 11px;
+    padding: 6px;
+    max-width: 100%;
 
-    width: 100%;
     object-fit: cover;
     height: 400px;
     inline-size: 450px;
