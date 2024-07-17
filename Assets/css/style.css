@@ -196,11 +196,11 @@ nav .container ul li a p{
 }
 
 .content .container .card ul a img{
-/*     padding: 11px; */
+    padding: 11px;
 
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
-    height: 400px;
+    max-height: 400px;
     inline-size: 450px;
     transition: all 510ms ease-in;
     
