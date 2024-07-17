@@ -198,16 +198,16 @@ nav .container ul li a p{
 .content .container .card ul a img{
     padding: 11px;
 
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
-    max-height: 400px;
+    height: 400px;
     inline-size: 450px;
     transition: all 510ms ease-in;
     
     /* min-height: 120%; */
-    /* height: auto; Mempertahankan rasio aspek
+    height: auto; Mempertahankan rasio aspek
     min-height: 320px;
-    object-fit: cover; Pastikan gambar tetap menutupi area yang tersedia dengan memotong bagian yang berlebih */
+    object-fit: cover; Pastikan gambar tetap menutupi area yang tersedia dengan memotong bagian yang berlebih 
 }   .content .container .card ul a img:hover{
     /* padding: 5px; *z/ */
     transition: all 10ms ease-in-out;
