@@ -196,7 +196,7 @@ nav .container ul li a p{
 }
 
 .content .container .card ul a img{
-    padding: 11px;
+/*     padding: 11px; */
 
     width: 100%;
     object-fit: cover;
