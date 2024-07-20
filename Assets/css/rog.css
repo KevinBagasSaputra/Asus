@@ -170,6 +170,7 @@ nav .container ul li a{
             max-width: 50%;
             object-position: 10px;
             background-color: red;
+            transition: all ease-in-out 50ms;
 
         } .card .container ul a img .a{
             border: 1px solid red;
@@ -220,9 +221,12 @@ nav .container ul li a{
 
 .content .container ul a img{
     min-width: 100%;
-
+    min-height: 160%;
+    /* max-width: 200px; */
     max-width: 100%;
-    object-fit: cover;
+    max-height: 140%;
+    object-fit:cover;
+    
     
     border-top: 2px solid red;
     border-bottom: 2px solid red;
