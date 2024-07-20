@@ -1,0 +1,238 @@
+*,
+html,
+body{
+
+    padding: 0;
+    margin: 0;
+
+
+    font-family: "Poppins", sans-serif;    
+}
+    /* List START */
+    nav .container .list{
+        background-color: black;
+    }
+
+        /* IMG A START*/
+        nav .container .list li .a img{
+            /* opacity: 0.5; */
+            opacity: 1;
+
+        }   /* nav .container .list li .a img:hover{
+            opacity: 1;
+        }*/
+
+        /* IMG A END*/
+
+
+        /* IMG B START*/
+        nav .container .list li .b img{
+            /* opacity: 0.5; */
+            opacity: 1;
+        }   /* nav .container .list li .b img:hover{
+            opacity: 1;
+        }*/
+        
+        /* IMG B END*/
+
+
+        /* IMG C START*/
+        nav .container .list li .c img{
+            /* opacity: 0.5; */
+            opacity: 1;
+        }   /* nav .container .list li .c img:hover{
+            opacity: 1;
+        } */
+        
+        /* IMG C END*/
+
+
+    nav .container .list li{
+        display: flex;
+
+        padding: 10px;
+
+    }
+
+    nav .container .list li a{
+        width: 1000px;
+        text-align: center;
+    }
+
+    /* List END */
+
+
+
+
+
+/* Navbar START */
+nav{
+    width: 100%;    
+    background-image: url("https://img.freepik.com/premium-vector/abstract-black-circuit-red-cyber-slash-grey-metal-design-technology-futuristic-background-vector_33869-3588.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("/assets/img/header/perpustakaan.jpg"); */
+
+
+}
+
+nav .container{
+    padding: 20px;
+}
+
+nav .container ul{
+    /* background-color: rgb(206, 0, 0); */
+}
+
+nav .container ul .background-rog{
+    /* background-image: url("https://dlcdnrog.asus.com/rog/media/1513879776658.webp"); */
+
+    position: absolute;
+    z-index: -1;
+
+} nav .container ul .background-rog img{
+    width: 100%;
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+nav .container ul li .judul{
+    color: #DE151E;
+    font-weight: 700;
+    
+    font-size: 24px;
+}
+
+nav .container ul li a{
+    font-size: 17.8px;
+    color: rgb(235, 219, 219);
+
+    display: flex;
+    justify-content: center;
+
+    padding: 5px;
+    text-decoration: none;   
+} nav .container ul li a:hover{
+    color: white;
+}
+/* Navbar END */
+
+/* Card START */
+.hero{
+    width: 100%;
+
+    background-color: #080808;
+}
+
+.hero .container{
+    /* padding: 20px; */
+}
+
+.hero .container img{
+    min-width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    
+    max-width: 100%;
+}
+
+        /* CARD START */
+        .card{
+            width: 100%;
+            background-color: black;
+        }
+
+        .card .container{
+        }
+
+        .card .container ul{
+            display: flex;
+        }
+
+        .card .container ul a{
+            text-decoration: none;
+        }
+
+        .card .container ul a img{
+            text-align: center;
+            
+            min-width: 100%;
+
+            /* min-height: 100%;
+            object-fit: cover; */
+        
+            max-width: 50%;
+        } .card .container ul a img:hover{
+            min-width: 100%;
+
+            max-width: 50%;
+            object-position: 10px;
+            background-color: red;
+
+        } .card .container ul a img .a{
+            border: 1px solid red;
+        }
+        /* CARD END */
+/* Card END */
+
+
+/* Content START */
+.content{
+    width: 100%;
+    background-image: url('https://dlcdnrog.asus.com/rog/media/1513879776658.webp');
+    background-size: cover;
+    background-repeat: no-repeatl;
+    color: white;
+}
+
+.content .container{
+    /* padding: 10px; */
+    padding: 40px;
+}
+
+.content .container .text{
+    max-inline-size: 1200px;
+    text-align: center;
+    padding: 20px;
+
+} .content .container .text a{
+    color: white;
+    text-decoration: none;
+}  .content .container .text a:hover{
+    text-decoration: underline red;
+    text-underline-offset: 7px;
+}
+
+.content .container ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .container ul a{
+    inline-size: 450px;
+
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px; /*tes*/
+}
+
+.content .container ul a img{
+    min-width: 100%;
+
+    max-width: 100%;
+    object-fit: cover;
+    
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+} .content .container ul a img:hover{
+    border: 2px solid #DE151E;
+
+    transition: all ease-in-out 50ms;
+    box-shadow: 0 0 20px 1px red;
+}
+
+/* Content END */
+
+
